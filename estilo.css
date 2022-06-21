@@ -1,0 +1,107 @@
+.container_bottom,
+.container_featured,
+.container_navbar {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container_navbar{
+    display: flex;
+    height: 90px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    flex: 40%;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px; 
+}
+
+.nav_item{
+    padding: 16px;
+    font-size: 18px;
+    flex: 12%;
+}
+
+.container_featured{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    text-align: left;
+    gap: 16px;
+}
+
+.container_quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+}
+
+.container_quote .quote_person {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture_text {
+    padding: 10px;
+    margin:6px;
+    width: 300px;
+    height: 250px;
+}
+
+.container_bottom{
+    padding: 20px
+}
+
+.container_callAction {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container_callAction .action_text {
+    margin: 6px;
+    margin-left: 70px;
+    padding: 0px;
+    flex: 20%;
+}
+
+.container_callAction div button {
+    margin-right: 70px;
+    background-color: #3882f6;
+}
